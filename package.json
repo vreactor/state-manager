@@ -5,8 +5,8 @@
   "main": "src/demo/index.js",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "build": "webpack --mode production"
+    "start:demo": "webpack-dev-server --open",
+    "build:demo": "webpack --mode production"
   },
   "keywords": [],
   "author": "Nikita Neroda <neroda.nikita@gmail.com>",

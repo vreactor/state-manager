@@ -1,3 +1,6 @@
+/**
+ * Logger for store
+ */
 export const logger = store => next => action => {
     if (typeof action === 'function') {
         return next.call(store.context, action);

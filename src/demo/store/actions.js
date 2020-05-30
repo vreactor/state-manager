@@ -23,6 +23,6 @@ export function asyncIncrement() {
 export function actionInput(value) {
     return {
         type: INPUT,
-        value
+        payload: {value}
     }
 }

@@ -1,6 +1,9 @@
 import {middleware} from './middleware';
 import {Options} from './decorators/options.decorator';
 
+/**
+ * Creates a store that holds the state tree.
+ */
 @Options({
     middleware: middleware
 })
